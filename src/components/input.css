@@ -1,0 +1,38 @@
+.c-input {
+  border: solid 1px #ccc;
+  border-radius: .4em;
+  box-shadow: var(--shadow-elevation-2);
+  font-size: 120%;
+  margin-bottom: .25em;
+  padding: .6em;
+  width: 100%;
+}
+
+.c-button {
+  background-color: white;
+  box-shadow: var(--shadow-elevation-1);
+}
+
+.c-button--block {
+  width: 100%;
+  margin-bottom: .4em;
+}
+
+.c-scroll-list {
+  backdrop-filter: blur(1em);
+  background-color: rgba(255,255,255,.5);
+  border-radius: .8em;
+  box-shadow: var(--shadow-elevation-2);
+  height: 50vh;
+  overflow-y: scroll;
+  padding: 1rem .8rem .6rem .8rem;
+  transition: all .2s;
+}
+
+.u-position-relative {
+  position: relative;
+}
+
+.u-z-index-10 {
+  z-index: 10;
+}

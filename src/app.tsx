@@ -5,9 +5,10 @@ import { Input } from "./components/input"
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
 function Component() {
-  const [location, setLocation] = useState({lng: 0, lat: 0});
+  const [location, setLocation] = useState({lng: -84.311332, lat: 33.922131});
 
   const handleClick = (lon:number, lat:number) => {
+    console.log(lon, lat)
     setLocation({lng: lon, lat: lat})
   }
 

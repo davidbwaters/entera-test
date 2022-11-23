@@ -10,6 +10,7 @@
 
 .c-button {
   background-color: white;
+  border-radius: .5rem;
   box-shadow: var(--shadow-elevation-1);
 }
 
@@ -21,11 +22,11 @@
 .c-scroll-list {
   backdrop-filter: blur(1em);
   background-color: rgba(255,255,255,.5);
-  border-radius: .8em;
+  border-radius: 1.2em;
   box-shadow: var(--shadow-elevation-2);
   height: 50vh;
   overflow-y: scroll;
-  padding: 1rem .8rem .6rem .8rem;
+  padding: .8rem .8rem .6rem .8rem;
   transition: all .2s;
 }
 
